@@ -8,4 +8,7 @@ def calculate_bill(units):
     else:
         return (100 * 5) + (100 * 10) + (units - 300) * 20
     
+for i in range(1, 99): 
+    units = int(input(f"\nEnter consumed units {i}:"))
+    
 print("Total Bill: ₹", calculate_bill(units))    
