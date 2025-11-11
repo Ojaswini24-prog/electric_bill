@@ -1,3 +1,4 @@
+# this is electricity bill generation program
 def calculate_bill(units):
     if units <= 100:
         return 0
